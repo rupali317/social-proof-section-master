@@ -1,8 +1,8 @@
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+import React from "react";
+import { WelcomeMessage } from "./components/WelcomeMessage";
 
-export default App;
+export const App = () => (
+  <>
+    <WelcomeMessage />
+  </>
+);
