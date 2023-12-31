@@ -10,7 +10,7 @@ const Cards = Object.keys(Testimonials).map((personName) => {
         alt={Testimonial.imageAltText}
         width="40"
         height="40"
-      ></img>
+      />
       <h5>{personName}</h5>
       {Testimonial.isVerifiedBuyer && <p>{Testimonial.buyerStatus}</p>}
       <p>{Testimonial.review}</p>
