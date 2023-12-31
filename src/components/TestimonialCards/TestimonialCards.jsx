@@ -12,7 +12,7 @@ const Cards = Object.keys(Testimonials).map((personName) => {
         height="40"
       />
       <h5>{personName}</h5>
-      {Testimonial.isVerifiedBuyer && <p>{Testimonial.buyerStatus}</p>}
+      {Testimonial.isVerifiedBuyer && <h6>{Testimonial.buyerStatus}</h6>}
       <p>{Testimonial.review}</p>
     </article>
   );
