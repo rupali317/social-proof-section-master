@@ -164,10 +164,6 @@ export const DefaultStyles = createGlobalStyle`
     padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
   }
 
-  footer {
-    text-align: center;
-  }
-
   @media (min-width: ${DesktopWidth}) {
     
   }`;
