@@ -166,16 +166,26 @@ export const DefaultStyles = createGlobalStyle`
     padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
   }
 
+  /* Adding the z-indexes because noticed that the background-image was appearing the rating card section.
+  Gave an illusion that the rating card had an opacity */
+  picture {
+    z-index: 0;
+  }
+
+  section {
+    z-index: 1;
+  }
+
   .top-left-pattern {
-      position: absolute;
-      top: 0;
-      left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .bottom-right-pattern {
-      position: absolute;
-      bottom: 0;
-      right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .rating-section {
