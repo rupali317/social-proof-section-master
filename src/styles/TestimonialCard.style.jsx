@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DesktopWidth } from "../constants/Breakpoints";
 
 export const TestimonialCard = styled.article`
   background-color: var(--primary-color-1);
@@ -17,6 +18,10 @@ export const TestimonialCard = styled.article`
     "profile-picture buyer-status"
     ". ."
     "review review";
+
+  @media (min-width: ${DesktopWidth}) {
+    grid-template-rows: auto auto var(--space-base-2) auto;
+  }
 `;
 
 export const ProfilePic = styled.img`

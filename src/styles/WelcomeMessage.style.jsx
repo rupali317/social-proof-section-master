@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DesktopWidth } from "../constants/Breakpoints";
 
 export const Title = styled.h1`
   color: var(--primary-color-1);
@@ -6,6 +7,13 @@ export const Title = styled.h1`
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-l);
   letter-spacing: var(--letter-spacing-m);
+
+  @media (min-width: ${DesktopWidth}) {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xl);
+    letter-spacing: var(--letter-spacing-l);
+  }
 `;
 
 export const SubTitle = styled.p`
@@ -19,6 +27,11 @@ export const SubTitle = styled.p`
 export const TextSection = styled.section`
   display: flex;
   flex-direction: column;
-  max-width: 20.4375rem;
+  max-width: 20.4375rem; /* 327px */
   gap: var(--space-s-4);
+
+  @media (min-width: ${DesktopWidth}) {
+    gap: var(--space-s-3);
+    max-width: 27.8125rem; /* 445px */
+  }
 `;

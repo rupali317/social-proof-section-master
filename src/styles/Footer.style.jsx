@@ -5,9 +5,9 @@ export const Small = styled.small`
 `;
 
 export const Link = styled.a`
-  color: var(--primary-color-2);
+  color: var(--primary-color-1);
 
   &:hover {
-    color: var(--primary-color-1);
+    color: var(--primary-color-2);
   }
 `;

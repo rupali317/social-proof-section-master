@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DesktopWidth } from "../constants/Breakpoints";
 
 export const RatingCard = styled.article`
   padding: var(--space-s-3) var(--space-s-3) var(--space-s-1) var(--space-s-3);
@@ -12,6 +13,12 @@ export const RatingCard = styled.article`
   flex-direction: column;
   gap: var(--space-s-2);
   align-items: center;
+
+  @media (min-width: ${DesktopWidth}) {
+    padding: var(--space-base-1) var(--space-m-3);
+    flex-direction: row;
+    gap: var(--space-m-4);
+  }
 `;
 
 export const StarSection = styled.div`

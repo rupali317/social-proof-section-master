@@ -47,7 +47,8 @@ export const BaseStyles = createGlobalStyle`
       --space-m-6: 2.4375rem; /* 39px */
       --space-l-1: 2.5rem; /* 40px */
       --space-l-2: 2.75rem; /* 44px */
-      --space-l-3: 3.0625rem; /* 49px */
+      --space-l-3: 3rem; /* 48px */
+      --space-l-4: 3.0625rem; /* 49px */
       --space-xl-1: 4.4375rem; /*71px */
       --space-xl-2: 5.125rem; /* 82px */ 
       --space-xl-3: 6.1875rem; /* 99px */ 
@@ -169,7 +170,7 @@ export const DefaultStyles = createGlobalStyle`
   }
 
   .testimonial-section {
-    margin-top: var(--space-l-3);
+    margin-top: var(--space-l-4);
   }
 
   .rating-section, .testimonial-section {
@@ -193,8 +194,52 @@ export const DefaultStyles = createGlobalStyle`
     grid-area: three;
   }
 
-
-
   @media (min-width: ${DesktopWidth}) {
+
+    body {
+        text-align: left;
+    }
+
+    main {
+        max-width: 90rem; /* 1440px */
+        padding: 7.375rem 10.3125rem 6.25rem; /* 118px, 165px, 100px */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: var(--space-xl-1);
+        grid-template-areas:
+        'welcome-message rating-section'
+        'testimonial-section testimonial-section';
+    }
+
+    .testimonial-section {
+        grid-area: testimonial-section;
+    }
+
+    .testimonial-section, .rating-section {
+        margin-top: auto;
+    }
+
+    .rating-section {
+        grid-template-areas: 
+        'one one one . .'
+        '. two two two .'
+        '. . three three three';
+        column-gap: var(--space-none);
+        grid-template-columns: var(--space-l-3) var(--space-l-3) 21.8125rem var(--space-l-3) var(--space-l-3); /* 21.8125rem=349px */
+        justify-content: end;
+    }
+
+    .testimonial-section {
+        grid-template-areas: 
+        'one . .'
+        'one two .'
+        'one two three'
+        '. two three'
+        '. . three';
+        column-gap: var(--space-m-1);
+        row-gap: var(--space-none);
+        grid-template-rows: var(--space-s-3) var(--space-s-3) auto var(--space-s-3) var(--space-s-3);
+        grid-template-columns: repeat(3, 1fr);
+    }
     
   }`;
