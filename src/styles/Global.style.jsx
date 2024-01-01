@@ -97,14 +97,15 @@ export const ResetStyles = createGlobalStyle`
     margin-inline-end: 0 ;
     padding-block-end: 0;
     padding-block-start: 0;
-    padding-inline-start: 0; /* Esp for ul */
+    padding-inline-start: 0; 
     padding-inline-end: 0 ;
   }
 
 /* Avoid text overflows */
  body,
  h1,
- h2,
+ h5,
+ h6,
  p {
     overflow-wrap: break-word;
   }
@@ -126,21 +127,19 @@ export const ResetStyles = createGlobalStyle`
   /* Set shorter line heights on headings and interactive elements, Balance text wrapping on headings
   */
   h1,
-  h2 {
+  h5,
+  h6 {
     line-height: 1.1;
+    text-wrap: balance;
   }
 
   /* A elements that don't have a class get default styles */
   a:not([class]) {
     text-decoration-skip-ink: auto;
   }
-  
-  ul {
-    list-style-type: none;
-  }
 
   /* Make images easier to work with */
-  img, picture {
+  img, picture, svg {
     max-width: 100%;
     display: block;
   }
