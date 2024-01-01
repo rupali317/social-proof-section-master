@@ -1,5 +1,14 @@
 export const RatingData = {
-  Reviews: 5,
-  "Report Guru": 5,
-  BestTech: 5,
+  Reviews: {
+    rating: 5,
+    gridArea: "rating-card-one",
+  },
+  "Report Guru": {
+    rating: 5,
+    gridArea: "rating-card-two",
+  },
+  BestTech: {
+    rating: 5,
+    gridArea: "rating-card-three",
+  },
 };

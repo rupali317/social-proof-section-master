@@ -1,25 +1,27 @@
 import React from "react";
 import { RatingData } from "./RatingData";
+import * as RatingStyles from "../../styles/Rating.style";
 
 const Ratings = Object.keys(RatingData).map((source) => {
-  const Rating = RatingData[source];
+  const Rating = RatingData[source].rating;
+  const GridArea = RatingData[source].gridArea;
   const StarIcons = Array.from({ length: Rating }, (_, index) => (
     <img
       key={index}
       src="/images/icon-star.svg"
       alt="star icon"
-      width="20"
-      height="20"
+      width="16"
+      height="16"
     />
   ));
 
   return (
-    <article key={source}>
-      <div>{StarIcons}</div>
+    <RatingStyles.RatingCard key={source} className={GridArea}>
+      <RatingStyles.StarSection>{StarIcons}</RatingStyles.StarSection>
       <p>
         Rated {Rating} Stars in {source}
       </p>
-    </article>
+    </RatingStyles.RatingCard>
   );
 });
 

@@ -31,8 +31,7 @@ export const BaseStyles = createGlobalStyle`
 
       /* Spacing */
       --space-none: 0rem;
-      --space-xs-1: 0.125rem; /*2px */
-      --space-xs-2: 0.25rem; /*4px */
+      --space-xs: 0.25rem; /*4px */
       --space-s-1: 0.9375rem; /*15px */
       --space-s-2: 0.951875rem; /* 15.23px */
       --space-s-3: 1rem; /* 16px */ 
@@ -165,11 +164,29 @@ export const DefaultStyles = createGlobalStyle`
   }
 
   .rating-section {
-      margin-top: var(--space-m-6);
+    margin-top: var(--space-m-6);
+    display: grid;
+    grid-template-areas:
+    'one'
+    'two'
+    'three';
+    gap: var(--space-s-3);
+  }
+
+  .rating-card-one {
+    grid-area: one;
+  }
+
+  .rating-card-two {
+    grid-area: two;
+  }
+
+  .rating-card-three {
+    grid-area: three;
   }
 
   .testimonial-section {
-      margin-top: var(--space-l-3);
+    margin-top: var(--space-l-3);
   }
 
   @media (min-width: ${DesktopWidth}) {
