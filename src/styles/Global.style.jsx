@@ -206,6 +206,7 @@ export const DefaultStyles = createGlobalStyle`
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: var(--space-xl-1);
+        column-gap: var(--space-m-3);
         grid-template-areas:
         'welcome-message rating-section'
         'testimonial-section testimonial-section';
@@ -217,6 +218,7 @@ export const DefaultStyles = createGlobalStyle`
 
     .testimonial-section, .rating-section {
         margin-top: auto;
+        margin-bottom: auto;
     }
 
     .rating-section {
