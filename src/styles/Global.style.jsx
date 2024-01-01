@@ -161,8 +161,21 @@ export const DefaultStyles = createGlobalStyle`
 
   main {
     background-color: var(--neutral-white);
+    position: relative;
     max-width: 23.4375rem;
     padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
+  }
+
+  .top-left-pattern {
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .bottom-right-pattern {
+      position: absolute;
+      bottom: 0;
+      right: 0;
   }
 
   .rating-section {
