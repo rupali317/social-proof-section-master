@@ -164,6 +164,14 @@ export const DefaultStyles = createGlobalStyle`
     padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
   }
 
+  .rating-section {
+      margin-top: var(--space-m-6);
+  }
+
+  .testimonial-section {
+      margin-top: var(--space-l-3);
+  }
+
   @media (min-width: ${DesktopWidth}) {
     
   }`;

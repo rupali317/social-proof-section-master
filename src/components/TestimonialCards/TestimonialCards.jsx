@@ -18,4 +18,6 @@ const Cards = Object.keys(Testimonials).map((personName) => {
   );
 });
 
-export const TestimonialCards = () => <section>{Cards}</section>;
+export const TestimonialCards = () => (
+  <section className="testimonial-section">{Cards}</section>
+);

@@ -23,4 +23,6 @@ const Ratings = Object.keys(RatingData).map((source) => {
   );
 });
 
-export const Rating = () => <section>{Ratings}</section>;
+export const Rating = () => (
+  <section className="rating-section">{Ratings}</section>
+);
