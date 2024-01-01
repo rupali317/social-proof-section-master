@@ -11,7 +11,7 @@ export const BaseStyles = createGlobalStyle`
       --neutral-color-2: hsl(300, 24%, 96%);
 
       /* Typography */
-      --font-size-s: 0.75rem; /* 12px */
+      --font-size-s: 0.8125rem; /* 13px */
       --font-size-base: 1.0625rem; /* 17px */
       --font-size-m: 1.1875rem; /* 19px */
       --font-size-l: 2.5rem; /* 40px */
@@ -150,7 +150,6 @@ export const DefaultStyles = createGlobalStyle`
     
   }
 
-  /* RRC: CHECK AGAIN */
   main {
     
   }

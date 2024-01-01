@@ -1,22 +1,23 @@
 import React from "react";
+import * as FooterStyles from "../../styles/Footer.style";
 
 export const Footer = () => (
-  <small>
+  <FooterStyles.Small>
     Challenge by{" "}
-    <a
+    <FooterStyles.Link
       href="https://www.frontendmentor.io?ref=challenge"
       target="_blank"
       rel="noreferrer"
     >
       Frontend Mentor
-    </a>
+    </FooterStyles.Link>
     . Coded by{" "}
-    <a
+    <FooterStyles.Link
       href="https://www.linkedin.com/in/rupali-rc/"
       target="_blank"
       rel="noreferrer"
     >
       Rupali Roy Choudhury
-    </a>
-  </small>
+    </FooterStyles.Link>
+  </FooterStyles.Small>
 );
