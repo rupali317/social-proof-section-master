@@ -1,20 +1,33 @@
 import React from "react";
 import { Testimonials } from "./TestimonialData";
+import * as TestimonialStyles from "../../styles/TestimonialCard.style";
 
 const Cards = Object.keys(Testimonials).map((personName) => {
   const Testimonial = Testimonials[personName];
   return (
-    <article key={personName}>
-      <img
+    <TestimonialStyles.TestimonialCard
+      key={personName}
+      className={Testimonial.gridArea}
+    >
+      <TestimonialStyles.ProfilePic
+        className="testimonial-card__profile-pic"
         src={Testimonial.image}
         alt={Testimonial.imageAltText}
         width="40"
         height="40"
       />
-      <h5>{personName}</h5>
-      {Testimonial.isVerifiedBuyer && <h6>{Testimonial.buyerStatus}</h6>}
-      <p>{Testimonial.review}</p>
-    </article>
+      <TestimonialStyles.PersonName className="testimonial-card__person-name">
+        {personName}
+      </TestimonialStyles.PersonName>
+      {Testimonial.isVerifiedBuyer && (
+        <TestimonialStyles.BuyerStatus className="testimonial-card__buyer-status">
+          {Testimonial.buyerStatus}
+        </TestimonialStyles.BuyerStatus>
+      )}
+      <TestimonialStyles.Review className="testimonial-card__review">
+        {'"' + Testimonial.review + '"'}
+      </TestimonialStyles.Review>
+    </TestimonialStyles.TestimonialCard>
   );
 });
 

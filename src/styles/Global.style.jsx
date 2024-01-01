@@ -56,6 +56,7 @@ export const BaseStyles = createGlobalStyle`
       /* Borders */
       --border-radius-none: 0rem;
       --border-radius-soft: 0.5rem; /* 8px */
+      --border-radius-round: 2.5rem; /* 40px */
   }
   
   @font-face {
@@ -165,6 +166,13 @@ export const DefaultStyles = createGlobalStyle`
 
   .rating-section {
     margin-top: var(--space-m-6);
+  }
+
+  .testimonial-section {
+    margin-top: var(--space-l-3);
+  }
+
+  .rating-section, .testimonial-section {
     display: grid;
     grid-template-areas:
     'one'
@@ -173,21 +181,19 @@ export const DefaultStyles = createGlobalStyle`
     gap: var(--space-s-3);
   }
 
-  .rating-card-one {
+  .rating-card-one, .testimonial-card-one {
     grid-area: one;
   }
 
-  .rating-card-two {
+  .rating-card-two, .testimonial-card-two {
     grid-area: two;
   }
 
-  .rating-card-three {
+  .rating-card-three, .testimonial-card-three {
     grid-area: three;
   }
 
-  .testimonial-section {
-    margin-top: var(--space-l-3);
-  }
+
 
   @media (min-width: ${DesktopWidth}) {
     

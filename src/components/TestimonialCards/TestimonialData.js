@@ -4,6 +4,7 @@ export const Testimonials = {
     buyerStatus: "Verified Buyer",
     image: "/images/image-colton.jpg",
     imageAltText: "Colton Smith's avatar profile image",
+    gridArea: "testimonial-card-one",
     review:
       "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!",
   },
@@ -12,6 +13,7 @@ export const Testimonials = {
     buyerStatus: "Verified Buyer",
     image: "/images/image-irene.jpg",
     imageAltText: "Irene Roberts's avatar profile image",
+    gridArea: "testimonial-card-two",
     review:
       "Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.",
   },
@@ -20,6 +22,7 @@ export const Testimonials = {
     buyerStatus: "Verified Buyer",
     image: "/images/image-anne.jpg",
     imageAltText: "Anne Wallace's avatar profile image",
+    gridArea: "testimonial-card-three",
     review:
       "Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!",
   },
