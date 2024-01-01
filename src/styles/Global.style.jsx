@@ -51,7 +51,8 @@ export const BaseStyles = createGlobalStyle`
       --space-l-3: 3.0625rem; /* 49px */
       --space-xl-1: 4.4375rem; /*71px */
       --space-xl-2: 5.125rem; /* 82px */ 
-      --space-xl-3: 7.8125rem; /*125px */
+      --space-xl-3: 6.1875rem; /* 99px */ 
+      --space-xl-4: 7.8125rem; /*125px */
 
       /* Borders */
       --border-radius-none: 0rem;
@@ -130,7 +131,6 @@ export const ResetStyles = createGlobalStyle`
   h5,
   h6 {
     line-height: 1.1;
-    text-wrap: balance;
   }
 
   /* A elements that don't have a class get default styles */
@@ -147,19 +147,25 @@ export const ResetStyles = createGlobalStyle`
 
 export const DefaultStyles = createGlobalStyle`
   body {
-    
+    font-family: 'League Spartan',sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-color-2);
+    padding: var(--space-base-1);
+    gap: var(--space-s-3);
   }
 
   main {
-    
+    background-color: var(--neutral-white);
+    max-width: 23.4375rem;
+    padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
   }
 
   footer {
     text-align: center;
-  }
-
-  section {
-    
   }
 
   @media (min-width: ${DesktopWidth}) {
