@@ -8,6 +8,7 @@ export const Footer = () => (
       href="https://www.frontendmentor.io?ref=challenge"
       target="_blank"
       rel="noreferrer"
+      aria-description="Frontend mentor is a platform for developers to upskill via rela-life projects"
     >
       Frontend Mentor
     </FooterStyles.Link>
@@ -16,6 +17,7 @@ export const Footer = () => (
       href="https://www.linkedin.com/in/rupali-rc/"
       target="_blank"
       rel="noreferrer"
+      aria-description="Rupali Roy Choudhury is the name of a developer"
     >
       Rupali Roy Choudhury
     </FooterStyles.Link>
