@@ -37,8 +37,9 @@ export const PersonName = styled.h2`
   grid-area: person-name;
 `;
 
-export const BuyerStatus = styled.h3`
+export const BuyerStatus = styled.em`
   font-size: var(--font-size-base);
+  font-style: normal;
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-s);
   color: var(--primary-color-2);
