@@ -5,7 +5,7 @@ export const BaseStyles = createGlobalStyle`
   :root {
       /* Colors */
       --primary-color-1: hsl(300, 43%, 22%);
-      --primary-color-2: hsl(333, 80%, 67%);
+      --primary-color-2: hsl(333, 92%, 70%);
       --neutral-white: hsl(0, 0%, 100%);
       --neutral-color-1: hsl(303, 10%, 53%);
       --neutral-color-2: hsl(300, 24%, 96%);
