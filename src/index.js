@@ -13,14 +13,12 @@ main.render(
     <Picture
       mobileVersion="/images/bg-pattern-top-mobile.svg"
       desktopVersion="/images/bg-pattern-top-desktop.svg"
-      altText="decorative pattern on the top"
       className="top-left-pattern"
     />
     <App />
     <Picture
       mobileVersion="/images/bg-pattern-bottom-mobile.svg"
       desktopVersion="/images/bg-pattern-bottom-desktop.svg"
-      altText="decorative pattern on the bottom"
       className="bottom-right-pattern"
     />
   </React.StrictMode>

@@ -7,6 +7,6 @@ export const Picture = (props) => (
       srcSet={props.desktopVersion}
       media={`(min-width:${DesktopWidth})`}
     />
-    <img src={props.mobileVersion} alt={props.altText} />
+    <img src={props.mobileVersion} alt="" role="presentation" />
   </picture>
 );
