@@ -10,7 +10,6 @@ export const Title = styled.h1`
 
   @media (min-width: ${DesktopWidth}) {
     font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-bold);
     line-height: var(--line-height-xl);
     letter-spacing: var(--letter-spacing-l);
   }

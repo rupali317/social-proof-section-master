@@ -39,10 +39,10 @@ export const PersonName = styled.h2`
 
 export const BuyerStatus = styled.em`
   font-size: var(--font-size-base);
-  font-style: normal;
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-s);
   color: var(--primary-color-2);
+  font-style: normal;
   align-self: start;
   grid-area: buyer-status;
 `;
