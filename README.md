@@ -7,9 +7,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [PageSpeed Insights results](#pagespeed-insights-results)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Tested with](#tested-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -25,6 +27,10 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
+
+![](./screenshot.jpg)
+
+### PageSpeed Insights results
 
 ![](./screenshot.jpg)
 
@@ -44,10 +50,11 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### Tested with
+
+- TBD
 
 ### What I learned
 
@@ -57,16 +64,6 @@ To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
 ```
 
 ### Continued development
@@ -81,7 +78,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Rupali Roy Choudhury](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
