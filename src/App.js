@@ -1,8 +1,8 @@
 import React from "react";
-import { WelcomeMessage } from "./components/WelcomeMessage";
-import { TestimonialCards } from "./components/TestimonialCards";
-import { Rating } from "./components/Rating";
 import * as GlobalStyles from "./styles/Global.style";
+import { WelcomeMessage } from "./components/WelcomeMessage";
+import { Rating } from "./components/Rating";
+import { TestimonialCards } from "./components/TestimonialCards";
 
 export const App = () => (
   <>
