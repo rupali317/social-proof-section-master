@@ -162,6 +162,9 @@ export const DefaultStyles = createGlobalStyle`
     position: relative;
     max-width: 23.4375rem;
     padding: var(--space-xl-2) var(--space-base-3) var(--space-xl-3);
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: var(--space-m-6);
   }
 
   /* Adding the z-indexes because noticed that the background-image was appearing the rating card section.
@@ -186,12 +189,8 @@ export const DefaultStyles = createGlobalStyle`
     right: 0;
   }
 
-  .rating-section {
-    margin-top: var(--space-m-6);
-  }
-
   .testimonial-section {
-    margin-top: var(--space-l-4);
+    margin-top: 0.625rem; /* 10px */
   }
 
   .rating-section, .testimonial-section {
@@ -224,7 +223,6 @@ export const DefaultStyles = createGlobalStyle`
     main {
         max-width: 90rem; /* 1440px */
         padding: 7.375rem 10.3125rem 6.25rem; /* 118px, 165px, 100px */
-        display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: var(--space-xl-1);
         column-gap: var(--space-m-3);
