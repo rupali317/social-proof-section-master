@@ -25,3 +25,8 @@ export const StarSection = styled.div`
   display: flex;
   gap: var(--space-xs);
 `;
+
+export const Img = styled.img`
+  width: 1rem;
+  height: 1rem;
+`;

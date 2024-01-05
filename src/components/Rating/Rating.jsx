@@ -6,7 +6,7 @@ const Ratings = Object.keys(RatingData).map((source) => {
   const Rating = RatingData[source].rating;
   const GridArea = RatingData[source].gridArea;
   const StarIcons = Array.from({ length: Rating }, (_, index) => (
-    <img
+    <RatingStyles.Img
       key={index}
       src="/images/icon-star.svg"
       alt="star icon"
