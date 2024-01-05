@@ -29,5 +29,8 @@ const Cards = Object.keys(Testimonials).map((personName) => {
 });
 
 export const TestimonialCards = () => (
-  <section className="testimonial-section">{Cards}</section>
+  <section className="testimonial-section">
+    <h2 className="screen-reader-only">Testimonials</h2>
+    {Cards}
+  </section>
 );

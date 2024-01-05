@@ -26,5 +26,8 @@ const Ratings = Object.keys(RatingData).map((source) => {
 });
 
 export const Rating = () => (
-  <section className="rating-section">{Ratings}</section>
+  <section className="rating-section">
+    <h2 className="screen-reader-only">Reviews</h2>
+    {Ratings}
+  </section>
 );

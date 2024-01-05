@@ -30,7 +30,7 @@ export const ProfilePic = styled.img`
   max-height: 100%; /* The parent's height is set as 1.125rem in the grid-template-rows so max-height of 100% is necessary */
 `;
 
-export const PersonName = styled.h2`
+export const PersonName = styled.h3`
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-s);

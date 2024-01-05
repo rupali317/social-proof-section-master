@@ -107,6 +107,7 @@ export const ResetStyles = createGlobalStyle`
  body,
  h1,
  h2,
+ h3,
  p {
     overflow-wrap: break-word;
   }
@@ -128,7 +129,8 @@ export const ResetStyles = createGlobalStyle`
   /* Set shorter line heights on headings and interactive elements, Balance text wrapping on headings
   */
   h1,
-  h2 {
+  h2,
+  h3 {
     line-height: 1.1;
   }
 
@@ -213,6 +215,10 @@ export const DefaultStyles = createGlobalStyle`
 
   .rating-card-three, .testimonial-card-three {
     grid-area: three;
+  }
+
+  .screen-reader-only {
+    display: none;
   }
 
   @media (min-width: ${DesktopWidth}) {
