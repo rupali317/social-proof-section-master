@@ -165,6 +165,7 @@ export const DefaultStyles = createGlobalStyle`
     display: grid;
     grid-template-columns: 1fr;
     row-gap: var(--space-m-6);
+    clip-path: border-box;
   }
 
   /* Adding the z-indexes because noticed that the background-image was appearing the rating card section.

@@ -20,13 +20,14 @@ export const TestimonialCard = styled.article`
     "review review";
 
   @media (min-width: ${DesktopWidth}) {
-    grid-template-rows: auto auto var(--space-base-2) auto;
+    grid-template-rows: 1.125rem 1.125rem var(--space-base-2) auto;
   }
 `;
 
 export const ProfilePic = styled.img`
   border-radius: var(--border-radius-round);
   grid-area: profile-picture;
+  max-height: 100%; /* The parent's height is set as 1.125rem in the grid-template-rows so max-height of 100% is necessary */
 `;
 
 export const PersonName = styled.h2`
