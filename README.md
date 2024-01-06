@@ -75,7 +75,7 @@ Users should be able to:
 }
 ```
 
-- Also, the definition of screen-reader-only cannot be display:none since it will be ignored bby screen readers.
+- Also, the css definition of .screen-reader-only cannot be display:none since it will be ignored by screen readers.
 
 ### Continued development
 
