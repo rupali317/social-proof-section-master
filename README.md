@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -41,7 +41,6 @@ Users should be able to:
 
 ![PageSpeed insights desktop](./public/images/Page-speed-insights-desktop.png)
 
-
 ### Links
 
 - Solution URL: [Social proof section master github](https://github.com/rupali317/social-proof-section-master)
@@ -62,24 +61,23 @@ Users should be able to:
 ### Tested with
 
 - Browsers used for testing: Google Chrome, Firefox, Safari, Brave, Microsoft Edge
-- Devices: 
+- Devices:
   - (Real) MacBook Pro (15 inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+
   - (Virtual) The mobile and tablet devices mentioned under Chrome's dev console
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+clip-path is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+```css
+.screen-reader-only {
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
 ```
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 
 ### Useful resources
 
