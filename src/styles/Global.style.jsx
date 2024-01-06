@@ -218,8 +218,7 @@ export const DefaultStyles = createGlobalStyle`
   }
 
   .screen-reader-only {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0)
   }
 
   @media (min-width: ${DesktopWidth}) {
