@@ -26,7 +26,7 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
 ![Social proof section master desktop](./public/images/Social-proof-section-master-desktop.png)
 ![Social proof section master mobile](./public/images/Social-proof-section-master-mobile.png)
