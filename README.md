@@ -67,13 +67,15 @@ Users should be able to:
 
 ### What I learned
 
-clip-path, in the below example, is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element.
+- clip-path, in the below example, is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element.
 
 ```css
 .screen-reader-only {
   clip-path: polygon(0 0, 0 0, 0 0, 0 0);
 }
 ```
+
+- Also, the definition of screen-reader-only cannot be display:none since it will be ignored bby screen readers.
 
 ### Continued development
 
