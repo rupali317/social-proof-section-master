@@ -28,17 +28,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Social proof section master desktop](./public/images/Social-proof-section-master-desktop.png)
+![Social proof section master mobile](./public/images/Social-proof-section-master-mobile.png)
 
 ### PageSpeed Insights results
 
-![](./screenshot.jpg)
+[Mobile version](https://pagespeed.web.dev/analysis/https-social-proof-section-master-rc-netlify-app/xldzag2tuw?form_factor=mobile)
+
+![PageSpeed insights mobile](./public/images/Page-speed-insights-mobile.png)
+
+[Desktop version](https://pagespeed.web.dev/analysis/https-social-proof-section-master-rc-netlify-app/xldzag2tuw?form_factor=desktop)
+
+![PageSpeed insights desktop](./public/images/Page-speed-insights-desktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social proof section master github](https://github.com/rupali317/social-proof-section-master)
+- Live Site URL: [Social proof section master challenge live](https://social-proof-section-master-rc.netlify.app/)
 
 ## My process
 
@@ -54,7 +61,10 @@ Users should be able to:
 
 ### Tested with
 
-- TBD
+- Browsers used for testing: Google Chrome, Firefox, Safari, Brave, Microsoft Edge
+- Devices: 
+  - (Real) MacBook Pro (15 inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+
+  - (Virtual) The mobile and tablet devices mentioned under Chrome's dev console
 
 ### What I learned
 
@@ -78,9 +88,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Rupali Roy Choudhury](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Rupali Roy Choudhury](https://www.linkedin.com/in/rupali-rc/)
+- Frontend Mentor - [@rupali317](https://www.frontendmentor.io/profile/rupali317)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- I express my gratitude towards my mentor - Deborah for the insightful code review session.
