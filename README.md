@@ -83,8 +83,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU&ab_channel=KevinPowell) - Provides the demo of CSS grids basics. A good refresher.
+- [A guide to learning CSS grid](https://learncssgrid.com/) - Provides a clear documentation of the Grid functionalities.
+- [Accessibility Insights for Web](https://chromewebstore.google.com/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) - This Google chrome extension is handy since it provides accessibility tests such as the color contrast, bypass mechansim, focus order, keyboard navigation, no missing headers, headling level, link purpose.
 
 ## Author
 
