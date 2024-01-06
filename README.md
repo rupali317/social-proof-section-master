@@ -67,7 +67,7 @@ Users should be able to:
 
 ### What I learned
 
-clip-path is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element
+clip-path, in the below example, is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element.
 
 ```css
 .screen-reader-only {
@@ -77,7 +77,8 @@ clip-path is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- The decorative images contributes to high LCP. Explore ways to reduce the LCP.
+- Explore if clipping of the decorative images is appropraite or if there are better solutions.
 
 ### Useful resources
 
