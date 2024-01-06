@@ -12,8 +12,8 @@ const Cards = Object.keys(Testimonials).map((personName) => {
       <TestimonialStyles.ProfilePic
         src={Testimonial.image}
         alt={Testimonial.imageAltText}
-        width="40"
-        height="40"
+        // width="40"
+        // height="40"
       />
       <TestimonialStyles.PersonName>{personName}</TestimonialStyles.PersonName>
       {Testimonial.isVerifiedBuyer && (
