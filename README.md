@@ -70,7 +70,7 @@ Users should be able to:
 - clip-path, is more widely adopted as compared to `clip: rect(0,0,0,0)`. The latter is deprecated and can be used if one wants to support IE
 
 ```css
-.screen-reader-only:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active) {
   clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   height: 1px;
@@ -81,7 +81,7 @@ Users should be able to:
 }
 ```
 
-- The css definition of .screen-reader-only cannot be display:none since it will be ignored by screen readers.
+- The css definition of .visually-hidden cannot be display:none since it will be ignored by screen readers.
 
 ### Continued development
 

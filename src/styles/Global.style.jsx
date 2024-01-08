@@ -217,7 +217,7 @@ export const DefaultStyles = createGlobalStyle`
     grid-area: three;
   }
 
-  .screen-reader-only:not(:focus):not(:active) {
+  .visually-hidden:not(:focus):not(:active) {
     clip: rect(0,0,0,0);
     clip-path: inset(50%);
     height: 1px;
