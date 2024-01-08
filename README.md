@@ -67,15 +67,21 @@ Users should be able to:
 
 ### What I learned
 
-- clip-path, in the below example, is more widely adopted as compared to `clip: rect(0,0,0,0)`. clip-path does not need a position absolute whereas clip needed a position absolute in conjunction to hide the element.
+- clip-path, is more widely adopted as compared to `clip: rect(0,0,0,0)`. The latter is deprecated and can be used if one wants to support IE
 
 ```css
-.screen-reader-only {
-  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+.screen-reader-only:not(:focus):not(:active) {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 ```
 
-- Also, the css definition of .screen-reader-only cannot be display:none since it will be ignored by screen readers.
+- The css definition of .screen-reader-only cannot be display:none since it will be ignored by screen readers.
 
 ### Continued development
 
@@ -87,6 +93,7 @@ Users should be able to:
 - [Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU&ab_channel=KevinPowell) - Provides the demo of CSS grids basics. A good refresher.
 - [A guide to learning CSS grid](https://learncssgrid.com/) - Provides a clear documentation of the Grid functionalities.
 - [Accessibility Insights for Web](https://chromewebstore.google.com/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) - This Google chrome extension is handy since it provides accessibility tests such as the color contrast, bypass mechansim, focus order, keyboard navigation, no missing headers, headling level, link purpose.
+- [Anatomy of visually hidden](https://www.tpgi.com/the-anatomy-of-visually-hidden/) - Explains the purpose of each CSS property of the visually hidden styles
 
 ## Author
 
@@ -96,3 +103,4 @@ Users should be able to:
 ## Acknowledgments
 
 - I express my gratitude towards my mentor - Deborah for the insightful code review session.
+- I also extend my thanks to members from the Front end mentor community who helped clear my misconceptions - Chamu, Grace, Melvin
