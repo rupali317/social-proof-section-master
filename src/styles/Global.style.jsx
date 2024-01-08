@@ -218,15 +218,13 @@ export const DefaultStyles = createGlobalStyle`
   }
 
   .screen-reader-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
     clip: rect(0,0,0,0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
     white-space: nowrap;
-    border-width: 0;
+    width: 1px;
   }
 
   @media (min-width: ${DesktopWidth}) {
