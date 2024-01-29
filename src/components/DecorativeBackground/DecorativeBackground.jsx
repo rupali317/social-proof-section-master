@@ -1,7 +1,7 @@
 import React from "react";
 import { DesktopWidth } from "../../constants/Breakpoints";
 
-export const Picture = (props) => (
+export const DecorativeBackground = (props) => (
   <picture className={props.className}>
     <source
       srcSet={props.desktopVersion}
