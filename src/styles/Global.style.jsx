@@ -147,6 +147,12 @@ export const ResetStyles = createGlobalStyle`
 `;
 
 export const DefaultStyles = createGlobalStyle`
+
+// RRC: img -> img {width: 60%;
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;} instead of the picture element
+
   body {
     font-family: 'League Spartan',sans-serif;
     text-align: center;
