@@ -1,12 +1,11 @@
 import React from "react";
-import { RatingData } from "./RatingData";
+import { RatingItem } from "./RatingItem";
 import * as RatingStyles from "../../styles/Rating.style";
 
-const Ratings = RatingData.map((object, index) => {
-  const Source = object.source;
-  const Rating = object.rating;
-  const GridArea = object.gridArea;
-  const StarIcons = Array.from({ length: Rating }, (_, index) => (
+//map({source, rating, gridArea}, index)   map(({source, rating, gridArea}, index) => {...})
+/// Styled component -> size and spacing
+const Ratings = RatingItem.map(({ source, rating, gridArea }, index) => {
+  const StarIcons = Array.from({ length: rating }, (_, index) => (
     <RatingStyles.Img
       key={index}
       src="/images/icon-star.svg"
@@ -17,10 +16,10 @@ const Ratings = RatingData.map((object, index) => {
   ));
 
   return (
-    <RatingStyles.RatingCard key={index} className={GridArea}>
+    <RatingStyles.RatingCard key={index} className={gridArea}>
       <RatingStyles.StarSection>{StarIcons}</RatingStyles.StarSection>
       <p>
-        Rated {Rating} Stars in {Source}
+        Rated {rating} Stars in {source}
       </p>
     </RatingStyles.RatingCard>
   );

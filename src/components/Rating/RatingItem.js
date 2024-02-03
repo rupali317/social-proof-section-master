@@ -1,4 +1,4 @@
-export const RatingData = [
+export const RatingItem = [
   {
     source: "Reviews",
     rating: 5,

@@ -10,3 +10,8 @@ export const DecorativeBackground = (props) => (
     <img src={props.mobileVersion} alt="" role="presentation" />
   </picture>
 );
+
+// //img -> img {width: 60%;
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;} instead of the picture element
